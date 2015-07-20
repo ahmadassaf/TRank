@@ -16,7 +16,7 @@ import java.io.ByteArrayInputStream
 class TRanker(content: InputStream, rankingAlgo: RankingAlgo, config: Config) {
 
   config.checkValid(ConfigFactory.defaultReference(), "TRank")
-  
+
   /**
    * Default to standard config.
    */
